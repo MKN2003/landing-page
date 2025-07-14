@@ -44,25 +44,57 @@ nav ul a {
     color: #e5e7eb;
 }
 
+/* HERO SECTION*/
+
 .hero-section {
     display: flex;
     background-color: #1f2937;
-    align-items: center;
+
 }
 
 .hero-text {
     margin-left: 220px;
     margin-top: 100px;
-    border-right: 100px;
+    margin-bottom: 100px;
+    width: 485px;
 }
 
 .hero-text h1 {
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 5px;
     color: #f9faf8;
 }
 
 .hero-text p {
     font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 5px;
     color: #e5e7eb;
+}
+
+.hero-text button {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 2px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 8px 32px;
+    color: #f9faf8;
+    border: none;
+    background-color: #3882F6;
+}
+
+.placeholder {
+    margin-top: 220px;
+    margin-bottom: 200px;
+    align-items: center;
+}
+
+.placeholder img  {
+    background-color: grey;
+    color: #e5e7eb;
+    margin-left: 60px;
+    padding: 100px 140px ;
 }
