@@ -134,3 +134,33 @@ nav ul a {
     color: #666;
     font-size: 18px;
 }
+
+/* QUOTE SECTION */
+
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    width: 850px;
+    height: 360px;
+    padding-top: 0px;
+    margin-top: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937
+}
+
+.thor {
+    font-size: 20px;
+    font-style: bold;
+    color: #1f2937;
+    float: right;
+}
